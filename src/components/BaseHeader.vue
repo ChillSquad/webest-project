@@ -6,7 +6,10 @@ import CompanyMail from "./CompanyMail.vue";
 <template>
   <header class="header">
     <div class="container header__inner">
-      <div class="header__logo">Webest</div>
+      <a href="webest-project/src/App.vue">
+        <img src="./icons/logo.png" alt="webest-logo" />
+      </a>
+      <a href="webest-project/src/App.vue" class="header__name">webest</a>
 
       <div class="header__contacts">
         <CompanyPhone phone="+7 (495) 128-22-90" />

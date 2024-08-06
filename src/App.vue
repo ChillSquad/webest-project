@@ -4,6 +4,7 @@ import BaseHeader from "./components/BaseHeader.vue";
 
 <template>
   <BaseHeader />
+
   <main></main>
 </template>
 
