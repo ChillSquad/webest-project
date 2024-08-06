@@ -1,5 +1,6 @@
 <script setup>
 import CompanyPhone from "./CompanyPhone.vue";
+import CompanyMail from "./CompanyMail.vue";
 </script>
 
 <template>
@@ -8,14 +9,12 @@ import CompanyPhone from "./CompanyPhone.vue";
       <div class="header__logo">Webest</div>
 
       <div class="header__contacts">
-        <CompanyPhone phone="+7 (000) 000-00-00" />
+        <CompanyPhone phone="+7 (495) 128-22-90" />
 
-        <a class="page-header__link" href="mailto:info@webest.ru">
-          info@webest.ru
-        </a>
+        <CompanyMail mail="info@webest.ru" />
       </div>
 
-      <button type="button" class="header__burger"></button>
+      <button type="button" class="header__burger">☰</button>
     </div>
   </header>
 </template>
