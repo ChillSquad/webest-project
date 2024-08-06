@@ -1,3 +1,6 @@
+@import "./components/header";
+@import "./components/main";
+
 :root {
   --index: calc(1vw + 1vh);
 }
@@ -10,10 +13,6 @@ $fontsDirectory: "@/assets/fonts";
     font-style: normal;
     font-display: swap;
     src: local($fontName),
-      url($fontsDirectory + "/" + $fontName + "/" + $fontSubName + ".woff")
-        format("woff"),
-      url($fontsDirectory + "/" + $fontName + "/" + $fontSubName + ".woff2")
-        format("woff2"),
       url($fontsDirectory + "/" + $fontName + "/" + $fontSubName + ".ttf")
         format("truetype");
   }
@@ -28,9 +27,6 @@ $fontsDirectory: "@/assets/fonts";
   padding: 0;
   box-sizing: border-box;
 }
-
-@import "./components/header";
-@import "./components/main";
 
 .container {
   max-width: 1520px;

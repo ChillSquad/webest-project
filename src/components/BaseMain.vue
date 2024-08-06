@@ -9,13 +9,14 @@
           платформы
           <span> Битрикс, Laravel, Magento, Vue.js, Flutter </span>
         </p>
+        <div class="arrow">↓</div>
       </div>
-      <button>Обсудить проект</button>
+      <button type="button">Обсудить проект</button>
     </div>
   </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 .main-page {
   width: 100%;
   height: 100vh;
@@ -28,7 +29,7 @@
   color: #fff;
   font-size: 60px;
   font-family: "Gilroy-Black", Arial, sans-serif;
-  font-weight: 900;
+  margin: 0 180px 0 0;
 }
 
 span {
@@ -46,4 +47,12 @@ button {
   outline: none;
   cursor: pointer;
 }
-</style>
+
+.arrow {
+  font-size: 32px;
+  position: absolute;
+  top: 600px;
+  left: 1500px;
+  cursor: pointer;
+}
+</style> -->
