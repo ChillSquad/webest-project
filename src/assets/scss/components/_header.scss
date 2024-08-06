@@ -15,7 +15,7 @@
 
   &__name {
     font-size: 32px;
-    font-family: "Exo2-Black";
+    font-family: "Exo2-Black", Arial, sans-serif;
     font-weight: 900;
   }
 
@@ -32,6 +32,14 @@
 
   &__contacts {
     margin-left: auto;
+    display: flex;
+
+    a {
+      font-family: "Gilroy-Regular", Arial, sans-serif;
+      font-weight: 900;
+      font-size: 20px;
+      margin-right: 35px;
+    }
   }
 
   &__burger {
