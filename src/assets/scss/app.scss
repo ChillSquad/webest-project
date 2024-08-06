@@ -1,3 +1,7 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
 $fontsDirectory: "@/assets/fonts";
 
 @mixin fontFace($fontName, $fontSubName) {
@@ -16,6 +20,7 @@ $fontsDirectory: "@/assets/fonts";
 }
 
 @include fontFace("Gilroy", "Gilroy-Regular");
+@include fontFace("Gilroy", "Gilroy-Black");
 @include fontFace("Exo", "Exo2-Black");
 
 * {
@@ -25,6 +30,7 @@ $fontsDirectory: "@/assets/fonts";
 }
 
 @import "./components/header";
+@import "./components/main";
 
 .container {
   max-width: 1520px;
