@@ -1,18 +1,22 @@
-$fontsDirectory: "@/assets/fonts/Gilroy";
+$fontsDirectory: "@/assets/fonts";
 
-@mixin fontFace($fontName) {
+@mixin fontFace($fontName, $fontSubName) {
   @font-face {
-    font-family: $fontName;
+    font-family: $fontSubName;
     font-style: normal;
     font-display: swap;
     src: local($fontName),
-      url($fontsDirectory + "/" + $fontName + ".woff") format("woff"),
-      url($fontsDirectory + "/" + $fontName + ".woff2") format("woff2"),
-      url($fontsDirectory + "/" + $fontName + ".ttf") format("truetype");
+      url($fontsDirectory + "/" + $fontName + "/" + $fontSubName + ".woff")
+        format("woff"),
+      url($fontsDirectory + "/" + $fontName + "/" + $fontSubName + ".woff2")
+        format("woff2"),
+      url($fontsDirectory + "/" + $fontName + "/" + $fontSubName + ".ttf")
+        format("truetype");
   }
 }
 
-@include fontFace("Gilroy-Regular");
+@include fontFace("Gilroy", "Gilroy-Regular");
+@include fontFace("Exo", "Exo2-Black");
 
 * {
   margin: 0;
@@ -23,7 +27,7 @@ $fontsDirectory: "@/assets/fonts/Gilroy";
 @import "./components/header";
 
 .container {
-  max-width: 1440px;
+  max-width: 1520px;
   width: 100%;
   margin: 0 auto;
 }
