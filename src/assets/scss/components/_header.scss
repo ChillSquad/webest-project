@@ -1,0 +1,12 @@
+.header {
+  background-color: coral;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__contacts {
+    margin-left: auto;
+  }
+}
