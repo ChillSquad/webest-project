@@ -1,5 +1,10 @@
-<script setup></script>
+<script setup>
+import BaseHeader from "./components/BaseHeader.vue";
+</script>
 
-<template></template>
+<template>
+  <BaseHeader />
+  <main></main>
+</template>
 
 <style scoped></style>
