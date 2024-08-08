@@ -16,8 +16,8 @@ import ScrollDown from "./icons/ScrollDown.vue";
           <ScrollDown />
         </div>
         <div class="arrow"><ArrowDown /></div>
+        <button type="button">Обсудить проект</button>
       </div>
-      <button type="button">Обсудить проект</button>
     </div>
   </div>
 </template>
