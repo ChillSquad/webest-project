@@ -1,0 +1,17 @@
+<template>
+  <svg
+    width="26px"
+    height="26px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="24" height="24" fill="none" />
+    <path
+      d="M12 6L12 18M12 18L17 13M12 18L7 13"
+      stroke="#fff"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</template>
