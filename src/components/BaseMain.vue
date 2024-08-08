@@ -7,11 +7,11 @@ import ScrollDown from "./icons/ScrollDown.vue";
   <div class="main-page">
     <div class="container">
       <div class="main-page__inner">
-        <p>
+        <h1>
           Создаём и развиваем интернет-магазины, B2B- и B2C-сервисы, обучающие
           платформы
           <span> Битрикс, Laravel, Magento, Vue.js, Flutter </span>
-        </p>
+        </h1>
         <div class="scroll">
           <ScrollDown />
         </div>

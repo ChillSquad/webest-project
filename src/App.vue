@@ -9,8 +9,8 @@ import WhatsappSymbol from "./components/icons/WhatsappSymbol.vue";
 
   <main>
     <BaseMain />
-    <div class="whatsapp-symbol">
+    <!-- <div class="whatsapp-symbol">
       <WhatsappSymbol />
-    </div>
+    </div> -->
   </main>
 </template>
